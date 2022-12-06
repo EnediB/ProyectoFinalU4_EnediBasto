@@ -150,7 +150,7 @@
 
             <i class="fa-solid fa-circle-xmark cerrar" id="btncerrar"></i>
             
-            <h3>Conctactanos</h3>
+            <h3>Contactanos</h3>
 
             <p class="parrafo2">Si tienes alguna pregunta porfavor llena estos recuadros y te atenderemos
             </p>
@@ -358,10 +358,12 @@
     </section>
     <br>
 
+    <!--SECCION DEL PARRALLAX-->
+
     <section class="parrallaxs">
         <div class="info ancho">
             <p>Aprovecha las diversas <br> especialidades</p>
-            <a href="#" class="negritas btn_amarillo">Leer más</a>
+            <a href="#" class="negritas btn_amarillo" id="btn3">Leer más</a>
         </div>
     </section>
     <br>
@@ -662,6 +664,7 @@
         var fondomodal = document.getElementById("modal");
         var btn = document.getElementById("btn");
         var btn2 = document.getElementById("btn2");
+        var btn3 = document.getElementById("btn3");
         var cerrar = document.getElementById("btncerrar");
 
         
@@ -670,6 +673,10 @@
         };
 
         btn2.onclick = function(){
+            fondomodal.style.display = "flex";
+        };
+
+        btn3.onclick = function(){
             fondomodal.style.display = "flex";
         };
 
