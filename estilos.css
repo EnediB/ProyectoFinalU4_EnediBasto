@@ -36,6 +36,8 @@ header{
     background-color: var(--azul);
 }
 
+/*CSS de la cabecera*/
+
 .cabecera{
     display: flex;
     flex-direction: row;
@@ -111,6 +113,8 @@ header{
 .logo1 img {
     width: 100%;
 }
+
+/*CSS del menu*/
 
 .barras{
     display: none;
@@ -1466,6 +1470,13 @@ footer{
         text-align: left;
     }
 
+    /*CSS del modal*/
+
+    .fondoblanco{
+        max-width: 300px;
+    }
+    
+
     /*CSS de los motivos*/
 
     .motivos{
@@ -1546,7 +1557,7 @@ footer{
     /*CSS del Parrallaxs*/
     .parrallaxs{
         background-position: center center;
-        background-position-x: -400px;
+        background-position-x: -200px;
         background-attachment: fixed;
         height: 600px;
     }
@@ -1874,6 +1885,12 @@ footer{
         text-align: left;
     }
 
+    /*CSS del modal*/
+
+    .fondoblanco{
+        max-width: 300px;
+    }
+
     /*CSS de los motivos*/
 
     .motivos{
@@ -1954,7 +1971,7 @@ footer{
     /*CSS del Parrallaxs*/
     .parrallaxs{
         background-position: center center;
-        background-position-x: -350px;
+        background-position-x: -250px;
         background-attachment: fixed;
         height: 600px;
     }
